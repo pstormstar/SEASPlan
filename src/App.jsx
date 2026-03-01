@@ -56,9 +56,13 @@ function App() {
       return;
     }
 
+    const isFromSidebar =
+      source.droppableId === 'sidebar' ||
+      source.droppableId.startsWith('category-');
+
     // Extract course ID, handling the potential '-index' suffix
-    const courseId = source.droppableId === 'sidebar' 
-      ? draggableId 
+    const courseId = isFromSidebar
+      ? draggableId
       : draggableId.substring(0, draggableId.lastIndexOf('-'));
 
     moveCourse(
@@ -78,6 +82,7 @@ function App() {
     <div className="app-container">
       <header className="app-header">
         <div className="brand">
+          <img src="/bruinBear.svg" alt="Bruin Logo" className="brand-icon" style={{ width: '32px', height: '32px' }} />
           <h1>BruinPlan</h1>
           <p className="user-email">{currentUser?.email}</p>
         </div>
