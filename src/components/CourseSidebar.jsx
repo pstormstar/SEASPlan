@@ -35,7 +35,7 @@ const SidebarCourseItem = ({ course, index }) => {
                 onClick={(e) => { e.stopPropagation(); setIsExpanded(!isExpanded); }}
                 title="More info"
               >
-                {isExpanded ? <ChevronUp size={16} /> : <ChevronDown size={16} />}
+                {isExpanded ? '▲' : '▼'}
               </button>
             </div>
           </div>
@@ -117,7 +117,7 @@ const CourseSidebar = () => {
       </div>
 
       <div className="search-container">
-        <Search className="search-icon" size={18} />
+        <span className="search-icon">🔍</span>
         <input 
           type="text" 
           placeholder="Search courses..." 

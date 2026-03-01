@@ -1,0 +1,41 @@
+:root{
+  /* dark theme UCLA colors */
+  --bg:#1a1a1d;
+  --card:#2e2e33;
+  --muted:#c5c6c7;
+  --accent:#0055b7; /* UCLA blue */
+  --highlight:#ffb300; /* UCLA gold */
+  --text:#eaeaea;
+}
+body{background:var(--bg);color:var(--text);font-family:Inter,ui-sans-serif,system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial}
+.planner-app{display:flex;flex-direction:column;gap:0;max-width:100vw;margin:0;padding:0;min-height:100vh}
+.planner-header{background:linear-gradient(135deg,var(--accent) 0%,#0055a8 100%);color:var(--highlight);padding:2rem;text-align:left;border-bottom:4px solid var(--highlight)}
+.planner-header h1{margin:0;font-size:2.5rem;color:var(--highlight)}
+.planner-header p{margin:0.25rem 0 0 0;font-size:1rem;color:rgba(255,255,255,0.9)}
+.planner-content{display:flex;flex-direction:row-reverse;gap:3rem;max-width:1200px;margin:1.5rem auto;padding:1rem;width:100%;flex:1}
+.planner-sidebar{width:260px;background:var(--card);padding:1rem;border-radius:8px;box-shadow:0 6px 18px rgba(0,0,0,0.5);flex-shrink:0;height:fit-content}
+.planner-sidebar .brand{font-weight:700;font-size:1.1rem;margin-bottom:.25rem;color:var(--highlight)}
+.planner-sidebar .lead{color:var(--muted);font-size:.95rem;margin-bottom:.75rem}
+.sidebar-actions{display:flex;gap:.5rem;flex-direction:column}
+.btn{background:var(--accent);color:#fff;border:none;padding:.5rem .6rem;border-radius:6px;cursor:pointer;transition:background 0.2s}
+.btn:hover{background:var(--highlight);color:#000}
+.btn-ghost{background:transparent;border:1px solid var(--muted);color:var(--muted)}
+.btn-ghost:hover{background:var(--muted);color:var(--bg)}
+.planner-main{flex:1;min-width:0;display:flex;flex-direction:column;gap:1rem}
+.planner-controls{background:var(--card);padding:.75rem;border-radius:8px;width:100%}
+.add-course-form{display:flex;gap:.5rem;flex-wrap:wrap}
+.add-course-form input,.add-course-form select{padding:.45rem;border:1px solid #555;border-radius:6px;background:#3a3a44;color:var(--text);min-width:100px}
+.add-course-form input[type='number']{width:72px}
+.year-grid{display:flex;flex-direction:column;gap:1rem}
+.year-row{width:100%;background:var(--card);padding:.75rem;border-radius:8px;border:1px solid #444}
+.year-header{font-weight:700;margin-bottom:.5rem;color:var(--text)}
+.quarters{display:flex;gap:1rem;overflow-x:auto;justify-content:space-between}
+.quarter-column{background:#25252a;padding:.5rem;border-radius:6px;border:1px solid #444;min-height:80px;min-width:150px}
+.quarter-label{font-size:.85rem;color:var(--muted);margin-bottom:.35rem}
+.course-card{background:#3a3a44;border-radius:6px;padding:.45rem;border:1px solid #555;margin-bottom:.45rem;text-align:center}
+.course-code{font-weight:700;font-size:1.1rem;color:var(--highlight)}
+.course-units{font-size:.75rem;color:var(--muted);margin-top:.2rem}
+.course-actions{display:flex;gap:.35rem;margin-top:.45rem}
+.btn-danger{background:transparent;color:#ff6b6b;border:1px solid #ff6b6b;padding:.25rem .4rem;border-radius:4px;cursor:pointer}
+.btn-danger:hover{background:#ff6b6b;color:var(--bg)}
+.help{margin-top:1rem;color:var(--muted);font-size:.85rem}
