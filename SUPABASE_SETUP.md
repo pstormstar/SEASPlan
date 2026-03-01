@@ -15,46 +15,12 @@
 - Enable **Email** authentication.
 - (Optional) Set up SMTP for production email sending.
 
-## 4. Create the `plans` Table
-- Go to the **SQL Editor** in your Supabase dashboard.
-- Run the following SQL to create the table with the correct schema:
+## 4. Set Up the Database Table and Security (REQUIRED)
+- Open the **SQL Editor** in your Supabase dashboard.
+- Open and run all the SQL in [`SUPABASE_SQL.md`](./SUPABASE_SQL.md) to create the `plans` table, enable Row Level Security, and add all required policies and triggers.
+- **You must run this before using the app or setting environment variables.**
 
-  ```sql
-  DROP TABLE IF EXISTS plans CASCADE;
-
-  CREATE TABLE IF NOT EXISTS plans (
-    user_id UUID PRIMARY KEY REFERENCES auth.users(id) ON DELETE CASCADE,
-    planner_data JSONB NOT NULL DEFAULT '{}',
-    created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW(),
-    updated_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
-  );
-  ```
-
-## 5. Enable Row Level Security (RLS) and Add Policies
-- In the SQL Editor, run:
-
-  ```sql
-  ALTER TABLE plans ENABLE ROW LEVEL SECURITY;
-
-  CREATE POLICY "Users can view their own plans"
-    ON plans FOR SELECT
-    USING (auth.uid() = user_id);
-
-  CREATE POLICY "Users can insert their own plans"
-    ON plans FOR INSERT
-    WITH CHECK (auth.uid() = user_id);
-
-  CREATE POLICY "Users can update their own plans"
-    ON plans FOR UPDATE
-    USING (auth.uid() = user_id)
-    WITH CHECK (auth.uid() = user_id);
-
-  CREATE POLICY "Users can delete their own plans"
-    ON plans FOR DELETE
-    USING (auth.uid() = user_id);
-  ```
-
-## 6. Add Environment Variables
+## 5. Add Environment Variables
 - In your project root, create a `.env.local` file:
   ```
   VITE_SUPABASE_URL=your-project-url
@@ -62,8 +28,19 @@
   ```
 - Replace with your actual values from step 2.
 
-## 7. Test Locally
+## 6. Test Locally
+- Run `npm install` if you haven't already.
 - Run `npm run dev` and verify authentication and planner saving work.
+
+## 7. Troubleshooting & Debugging
+- If you see errors like `400`, `403`, or `406` in the browser console:
+  - Double-check that you ran all SQL in `SUPABASE_SQL.md` and that the `plans` table has a `planner_data` column of type `jsonb`.
+  - Make sure Row Level Security (RLS) is enabled and all policies are present (see the SQL file for exact policy code).
+  - Ensure your environment variables are correct and match your Supabase project.
+  - If you change the table schema, re-run the SQL in `SUPABASE_SQL.md`.
+  - You can add `console.log` statements in your code to print Supabase errors for easier debugging.
+- If you get a `406` or `403` error, it usually means RLS is enabled but the correct policy is missing or not allowing your user. Re-run the policy SQL.
+- If you get a `400` error about missing columns, your table schema is incorrect—drop and recreate the table using the SQL provided.
 
 ## 8. (Optional) Deploy
 - See `VERCEL_DEPLOY.md` for deployment instructions.
