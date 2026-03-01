@@ -1,0 +1,2145 @@
+[{
+  "_id": {
+    "$oid": "69a4a736937b77a6e4fcf48b"
+  },
+  "source_url": "https://www.seasoasa.ucla.edu/engr-courses/",
+  "scraped_at": {
+    "$date": "2026-03-01T20:53:10.250Z"
+  },
+  "table_data": [
+    {
+      "ENGR_2_–_Technology_and_Society": "ENGR 1A – Introduction to Engineering Design: Malware Defense",
+      "Fall_2025": "Fall 2025",
+      "Winter_2026": 1,
+      "Spring_2026": 1
+    },
+    {
+      "ENGR_2_–_Technology_and_Society": "ENGR 1AR – Introduction to Engineering Design: Autonomous Rover",
+      "Fall_2025": "Fall 2025",
+      "Winter_2026": 1,
+      "Spring_2026": 1
+    },
+    {
+      "ENGR_2_–_Technology_and_Society": "ENGR 1BI – Introduction to Engineering Design: Bionics",
+      "Fall_2025": "Fall 2025",
+      "Winter_2026": 1,
+      "Spring_2026": 1
+    },
+    {
+      "ENGR_2_–_Technology_and_Society": "ENGR 1CO – Introduction to Engineering Design: Coffee",
+      "Fall_2025": "Fall 2025",
+      "Winter_2026": 1,
+      "Spring_2026": 1
+    },
+    {
+      "ENGR_2_–_Technology_and_Society": "ENGR 1CR – Introduction to Engineering Design: Combat Robotics",
+      "Fall_2025": "Fall 2025",
+      "Winter_2026": 1,
+      "Spring_2026": 1
+    },
+    {
+      "ENGR_2_–_Technology_and_Society": "ENGR 1DR – Introduction to Engineering: Drones",
+      "Fall_2025": "Fall 2025",
+      "Winter_2026": 1,
+      "Spring_2026": 1
+    },
+    {
+      "ENGR_2_–_Technology_and_Society": "ENGR 1EC – Introduction to Engineering: Electrocardiogram",
+      "Fall_2025": "Fall 2025",
+      "Winter_2026": 1,
+      "Spring_2026": 1
+    },
+    {
+      "ENGR_2_–_Technology_and_Society": "ENGR 1GD – Introduction to Engineering: Game Development in Unity",
+      "Fall_2025": "Fall 2025",
+      "Winter_2026": 1,
+      "Spring_2026": 1
+    },
+    {
+      "ENGR_2_–_Technology_and_Society": "ENGR 1GK – Introduction to Engineering Design: Go-Karts",
+      "Fall_2025": "Fall 2025",
+      "Winter_2026": 1,
+      "Spring_2026": 1
+    },
+    {
+      "ENGR_2_–_Technology_and_Society": "ENGR 1IT – Introduction to Engineering Design: Internet of Things",
+      "Fall_2025": "Fall 2025",
+      "Winter_2026": 0,
+      "Spring_2026": 1
+    },
+    {
+      "ENGR_2_–_Technology_and_Society": "ENGR 1ML – Introduction to Engineering Design: Machine Learning",
+      "Fall_2025": "Fall 2025",
+      "Winter_2026": 1,
+      "Spring_2026": 1
+    },
+    {
+      "ENGR_2_–_Technology_and_Society": "ENGR 1PH – Introduction to Engineering Design: 3D Pharmaceuticals",
+      "Fall_2025": "Fall 2025",
+      "Winter_2026": 1,
+      "Spring_2026": 1
+    },
+    {
+      "ENGR_2_–_Technology_and_Society": "ENGR 1PL – Introduction to Engineering Design: Planes",
+      "Fall_2025": "Fall 2025",
+      "Winter_2026": 1,
+      "Spring_2026": 1
+    },
+    {
+      "ENGR_2_–_Technology_and_Society": "ENGR 1RK – Introduction to Engineering Design: Rockets",
+      "Fall_2025": "Fall 2025",
+      "Winter_2026": 1,
+      "Spring_2026": 1
+    },
+    {
+      "ENGR_2_–_Technology_and_Society": "ENGR 1UW – Introduction to Engineering Design: Underwater Robotics",
+      "Fall_2025": "Fall 2025",
+      "Winter_2026": 1,
+      "Spring_2026": 1
+    },
+    {
+      "ENGR_2_–_Technology_and_Society": "ENGR 1XP – Introduction to Engineering Design: Variable Topics",
+      "Fall_2025": "Fall 2025",
+      "Winter_2026": 1,
+      "Spring_2026": 1
+    },
+    {
+      "ENGR_2_–_Technology_and_Society": "ENGR M103 – Environmental Nanotechnology: Implications and Applications(Offered under C&EE M165)",
+      "Fall_2025": 0,
+      "Winter_2026": 0,
+      "Spring_2026": 1
+    },
+    {
+      "ENGR_2_–_Technology_and_Society": "ENGR 110 – Introduction to Technology Management and Economics for Engineers",
+      "Fall_2025": "Fall 2025",
+      "Winter_2026": 0,
+      "Spring_2026": 1
+    },
+    {
+      "ENGR_2_–_Technology_and_Society": "ENGR 111 – Introduction to Finance and Marketing for Engineers",
+      "Fall_2025": 0,
+      "Winter_2026": 1,
+      "Spring_2026": 0
+    },
+    {
+      "ENGR_2_–_Technology_and_Society": "ENGR 112 – Laboratory to Market, Entrepreneurship for Engineers (NOT OFFERED 2025-2026)",
+      "Fall_2025": 0,
+      "Winter_2026": 0,
+      "Spring_2026": 0
+    },
+    {
+      "ENGR_2_–_Technology_and_Society": "ENGR 180 – Engineering of Complex Systems",
+      "Fall_2025": 0,
+      "Winter_2026": 0,
+      "Spring_2026": 1
+    },
+    {
+      "ENGR_2_–_Technology_and_Society": "ENGR 182EW – Technology and Society",
+      "Fall_2025": "Fall 2025",
+      "Winter_2026": 0,
+      "Spring_2026": 0
+    },
+    {
+      "ENGR_2_–_Technology_and_Society": "ENGR 183EW – Engineering and Society",
+      "Fall_2025": 0,
+      "Winter_2026": 1,
+      "Spring_2026": 0
+    },
+    {
+      "ENGR_2_–_Technology_and_Society": "ENGR 184 – Humanities-Informed Science, Technology, Engineering, and Mathematics",
+      "Fall_2025": 0,
+      "Winter_2026": 1,
+      "Spring_2026": 0
+    },
+    {
+      "ENGR_2_–_Technology_and_Society": "ENGR 186 – Ethics for Computer Scientists",
+      "Fall_2025": "Fall 2025",
+      "Winter_2026": 0,
+      "Spring_2026": 0
+    },
+    {
+      "ENGR_2_–_Technology_and_Society": "ENGR 186W – Ethics for Computer Scientists",
+      "Fall_2025": 0,
+      "Winter_2026": 1,
+      "Spring_2026": 1
+    },
+    {
+      "ENGR_2_–_Technology_and_Society": "ENGR 188EW – Experimental Courses in Engineering Ethics (NOT OFFERED 2025-2026)",
+      "Fall_2025": 0,
+      "Winter_2026": 0,
+      "Spring_2026": 0
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "69a4a739937b77a6e4fcf48c"
+  },
+  "source_url": "https://www.seasoasa.ucla.edu/?page_id=239365&preview=true",
+  "scraped_at": {
+    "$date": "2026-03-01T20:53:13.153Z"
+  },
+  "table_data": [
+    {
+      "DEPT": "BIOENGR",
+      "COURSE": "10 – Introduction to Bioengineering",
+      "FALL": 1,
+      "WINTER": 0,
+      "SPRING": 0
+    },
+    {
+      "DEPT": "BIOENGR",
+      "COURSE": "100 – Bioengineering Fundamentals",
+      "FALL": 1,
+      "WINTER": 0,
+      "SPRING": 0
+    },
+    {
+      "DEPT": "BIOENGR",
+      "COURSE": "C101 – Engineering Principles for Drug Delivery",
+      "FALL": 0,
+      "WINTER": 1,
+      "SPRING": 0
+    },
+    {
+      "DEPT": "BIOENGR",
+      "COURSE": "C102 – Human Physiological Systems for Bioengineering I",
+      "FALL": 0,
+      "WINTER": 0,
+      "SPRING": 0
+    },
+    {
+      "DEPT": "BIOENGR",
+      "COURSE": "C104 – Physical Chemistry of Biomacromolecules",
+      "FALL": 1,
+      "WINTER": 0,
+      "SPRING": 0
+    },
+    {
+      "DEPT": "BIOENGR",
+      "COURSE": "C105 – Engineering of Bioconjugates",
+      "FALL": 1,
+      "WINTER": 0,
+      "SPRING": 0
+    },
+    {
+      "DEPT": "BIOENGR",
+      "COURSE": "C106 – Topics in Bioelectricity for Engineers",
+      "FALL": 0,
+      "WINTER": 0,
+      "SPRING": 0
+    },
+    {
+      "DEPT": "BIOENGR",
+      "COURSE": "C107 – Polymer Chemistry for Bioengineers",
+      "FALL": 0,
+      "WINTER": 1,
+      "SPRING": 0
+    },
+    {
+      "DEPT": "BIOENGR",
+      "COURSE": "110 – Biotransport and Bioreaction Processes",
+      "FALL": 0,
+      "WINTER": 0,
+      "SPRING": 1
+    },
+    {
+      "DEPT": "BIOENGR",
+      "COURSE": "120 – Biomedical Transducers",
+      "FALL": 1,
+      "WINTER": 0,
+      "SPRING": 0
+    },
+    {
+      "DEPT": "BIOENGR",
+      "COURSE": "121 – Introduction to Microcontrollers",
+      "FALL": 0,
+      "WINTER": 1,
+      "SPRING": 0
+    },
+    {
+      "DEPT": "BIOENGR",
+      "COURSE": "122 – Introduction to Medical Imaging",
+      "FALL": 0,
+      "WINTER": 1,
+      "SPRING": 0
+    },
+    {
+      "DEPT": "BIOENGR",
+      "COURSE": "C131 – Nanopore Sensing",
+      "FALL": 0,
+      "WINTER": 0,
+      "SPRING": 0
+    },
+    {
+      "DEPT": "BIOENGR",
+      "COURSE": "132 – Nanogenerators for Bioengineering",
+      "FALL": 0,
+      "WINTER": 0,
+      "SPRING": 1
+    },
+    {
+      "DEPT": "BIOENGR",
+      "COURSE": "C135 – Orthopaedic Biomechanical Engineering",
+      "FALL": 1,
+      "WINTER": 0,
+      "SPRING": 0
+    },
+    {
+      "DEPT": "BIOENGR",
+      "COURSE": "C139A – Biomolecular Materials Science I",
+      "FALL": 0,
+      "WINTER": 1,
+      "SPRING": 0
+    },
+    {
+      "DEPT": "BIOENGR",
+      "COURSE": "C139B – Biomolecular Materials Science II",
+      "FALL": 0,
+      "WINTER": 0,
+      "SPRING": 0
+    },
+    {
+      "DEPT": "BIOENGR",
+      "COURSE": "CM140 – Introduction to Biomechanics",
+      "FALL": 0,
+      "WINTER": 1,
+      "SPRING": 0
+    },
+    {
+      "DEPT": "BIOENGR",
+      "COURSE": "CM145 – Molecular Biotechnology for Engineers",
+      "FALL": 1,
+      "WINTER": 0,
+      "SPRING": 0
+    },
+    {
+      "DEPT": "BIOENGR",
+      "COURSE": "C147 – Applied Tissue Engineering: Clinical and Industrial Perspective",
+      "FALL": 0,
+      "WINTER": 0,
+      "SPRING": 0
+    },
+    {
+      "DEPT": "BIOENGR",
+      "COURSE": "M153 – Introduction to Microscale and Nanoscale Manufacturing",
+      "FALL": 1,
+      "WINTER": 1,
+      "SPRING": 0
+    },
+    {
+      "DEPT": "BIOENGR",
+      "COURSE": "C155 – Fluid-Particle and Fluid-Structure Interactions in Microflows",
+      "FALL": 0,
+      "WINTER": 1,
+      "SPRING": 0
+    },
+    {
+      "DEPT": "BIOENGR",
+      "COURSE": "C166 – Wearable Bioelectronics",
+      "FALL": 1,
+      "WINTER": 0,
+      "SPRING": 0
+    },
+    {
+      "DEPT": "BIOENGR",
+      "COURSE": "167L – Bioengineering Laboratory",
+      "FALL": 0,
+      "WINTER": 1,
+      "SPRING": 1
+    },
+    {
+      "DEPT": "BIOENGR",
+      "COURSE": "175 – Machine Learning and Data-Driven Modeling in Bioengineering",
+      "FALL": 0,
+      "WINTER": 0,
+      "SPRING": 1
+    },
+    {
+      "DEPT": "BIOENGR",
+      "COURSE": "176 – Principles of Biocompatibility",
+      "FALL": 0,
+      "WINTER": 0,
+      "SPRING": 1
+    },
+    {
+      "DEPT": "BIOENGR",
+      "COURSE": "177A – Bioengineering Capstone Design I",
+      "FALL": 1,
+      "WINTER": 0,
+      "SPRING": 0
+    },
+    {
+      "DEPT": "BIOENGR",
+      "COURSE": "177B – Bioengineering Capstone Design II",
+      "FALL": 0,
+      "WINTER": 1,
+      "SPRING": 0
+    },
+    {
+      "DEPT": "BIOENGR",
+      "COURSE": "CM178 – Introduction to Biomaterials",
+      "FALL": 1,
+      "WINTER": 0,
+      "SPRING": 0
+    },
+    {
+      "DEPT": "BIOENGR",
+      "COURSE": "180 – System Integration in Biology, Engineering, and Medicine I",
+      "FALL": 0,
+      "WINTER": 1,
+      "SPRING": 0
+    },
+    {
+      "DEPT": "BIOENGR",
+      "COURSE": "180L – System Integration in Biology, Engineering, and Medicine I Laboratory",
+      "FALL": 0,
+      "WINTER": 0,
+      "SPRING": 0
+    },
+    {
+      "DEPT": "BIOENGR",
+      "COURSE": "M182 – Systems Biomodeling and Simulation Basics",
+      "FALL": 0,
+      "WINTER": 1,
+      "SPRING": 0
+    },
+    {
+      "DEPT": "BIOENGR",
+      "COURSE": "M184 – Introduction to Computational and Systems Biology",
+      "FALL": 1,
+      "WINTER": 0,
+      "SPRING": 0
+    },
+    {
+      "DEPT": "BIOENGR",
+      "COURSE": "C185 – Introduction to Tissue Engineering",
+      "FALL": 0,
+      "WINTER": 1,
+      "SPRING": 0
+    },
+    {
+      "DEPT": "BIOENGR",
+      "COURSE": "CM187 – Research Communication in Computational and Systems Biology",
+      "FALL": 0,
+      "WINTER": 0,
+      "SPRING": 1
+    },
+    {
+      "DEPT": "BIOENGR",
+      "COURSE": "188 – Special Courses in Bioengineering(topics vary by quarter)",
+      "FALL": 1,
+      "WINTER": 1,
+      "SPRING": 1
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "69a4a73b937b77a6e4fcf48d"
+  },
+  "source_url": "https://www.seasoasa.ucla.edu/course-term-offerings/",
+  "scraped_at": {
+    "$date": "2026-03-01T20:53:15.362Z"
+  },
+  "table_data": [
+    {
+      "DEPT": "CH ENGR",
+      "COURSE": "10 – Introduction to Chemical and Biomolecular Engineering",
+      "FALL": 1,
+      "WINTER": 0,
+      "SPRING": 0
+    },
+    {
+      "DEPT": "CH ENGR",
+      "COURSE": "45 – Biomolecular Engineering Fundamentals",
+      "FALL": 0,
+      "WINTER": 1,
+      "SPRING": 0
+    },
+    {
+      "DEPT": "CH ENGR",
+      "COURSE": "100 – Fundamentals of Chemical and Biomolecular Engineering",
+      "FALL": 1,
+      "WINTER": 0,
+      "SPRING": 0
+    },
+    {
+      "DEPT": "CH ENGR",
+      "COURSE": "101A – Transport Phenomena I",
+      "FALL": 1,
+      "WINTER": 0,
+      "SPRING": 0
+    },
+    {
+      "DEPT": "CH ENGR",
+      "COURSE": "101B – Transport Phenomena II: Heat Transfer",
+      "FALL": 0,
+      "WINTER": 1,
+      "SPRING": 0
+    },
+    {
+      "DEPT": "CH ENGR",
+      "COURSE": "101C – Mass Transfer",
+      "FALL": 0,
+      "WINTER": 0,
+      "SPRING": 1
+    },
+    {
+      "DEPT": "CH ENGR",
+      "COURSE": "102A – Thermodynamics I",
+      "FALL": 0,
+      "WINTER": 1,
+      "SPRING": 0
+    },
+    {
+      "DEPT": "CH ENGR",
+      "COURSE": "102B – Thermodynamics II",
+      "FALL": 0,
+      "WINTER": 0,
+      "SPRING": 1
+    },
+    {
+      "DEPT": "CH ENGR",
+      "COURSE": "103 – Separation Processes",
+      "FALL": 0,
+      "WINTER": 0,
+      "SPRING": 1
+    },
+    {
+      "DEPT": "CH ENGR",
+      "COURSE": "104A – Chemical and Biomolecular Engineering Laboratory I",
+      "FALL": 0,
+      "WINTER": 1,
+      "SPRING": 1
+    },
+    {
+      "DEPT": "CH ENGR",
+      "COURSE": "104B – Chemical and Biomolecular Engineering Laboratory II",
+      "FALL": 1,
+      "WINTER": 0,
+      "SPRING": 0
+    },
+    {
+      "DEPT": "CH ENGR",
+      "COURSE": "104C – Semiconductor Processing",
+      "FALL": 0,
+      "WINTER": 0,
+      "SPRING": 1
+    },
+    {
+      "DEPT": "CH ENGR",
+      "COURSE": "104CL – Semiconductor Processing/Laboratory",
+      "FALL": 0,
+      "WINTER": 0,
+      "SPRING": 1
+    },
+    {
+      "DEPT": "CH ENGR",
+      "COURSE": "104D – Molecular Biotechnology Laboratory: From Gene to Product",
+      "FALL": 0,
+      "WINTER": 1,
+      "SPRING": 1
+    },
+    {
+      "DEPT": "CH ENGR",
+      "COURSE": "106 – Chemical Reaction Engineering",
+      "FALL": 1,
+      "WINTER": 0,
+      "SPRING": 0
+    },
+    {
+      "DEPT": "CH ENGR",
+      "COURSE": "107 – Process Dynamics and Control",
+      "FALL": 0,
+      "WINTER": 1,
+      "SPRING": 0
+    },
+    {
+      "DEPT": "CH ENGR",
+      "COURSE": "108A – Process Economics and Analysis",
+      "FALL": 0,
+      "WINTER": 1,
+      "SPRING": 0
+    },
+    {
+      "DEPT": "CH ENGR",
+      "COURSE": "108B – Chemical Process Computer-Aided Design and Analysis",
+      "FALL": 0,
+      "WINTER": 0,
+      "SPRING": 1
+    },
+    {
+      "DEPT": "CH ENGR",
+      "COURSE": "109 – Numerical & Mathematical Methods in Chemical and Biological Engineering",
+      "FALL": 1,
+      "WINTER": 0,
+      "SPRING": 0
+    },
+    {
+      "DEPT": "CH ENGR",
+      "COURSE": "C112 – Polymer Processes",
+      "FALL": 0,
+      "WINTER": 1,
+      "SPRING": 0
+    },
+    {
+      "DEPT": "CH ENGR",
+      "COURSE": "C115 – Biochemical Reaction Engineering",
+      "FALL": 1,
+      "WINTER": 0,
+      "SPRING": 0
+    },
+    {
+      "DEPT": "CH ENGR",
+      "COURSE": "C116 – Surface and Interface Engineering",
+      "FALL": 1,
+      "WINTER": 0,
+      "SPRING": 0
+    },
+    {
+      "DEPT": "CH ENGR",
+      "COURSE": "C118 – Multimedia Environmental Assessment",
+      "FALL": 0,
+      "WINTER": 0,
+      "SPRING": 0
+    },
+    {
+      "DEPT": "CH ENGR",
+      "COURSE": "C124 – Cell Material Interactions",
+      "FALL": 0,
+      "WINTER": 1,
+      "SPRING": 0
+    },
+    {
+      "DEPT": "CH ENGR",
+      "COURSE": "C125 – Bioseparations and Bioprocess Engineering",
+      "FALL": 0,
+      "WINTER": 0,
+      "SPRING": 1
+    },
+    {
+      "DEPT": "CH ENGR",
+      "COURSE": "C128 – Hydrogen",
+      "FALL": 0,
+      "WINTER": 0,
+      "SPRING": 1
+    },
+    {
+      "DEPT": "CH ENGR",
+      "COURSE": "C146 – Systems Biology: Intracellular Network Identification and Analysis",
+      "FALL": 0,
+      "WINTER": 0,
+      "SPRING": 1
+    },
+    {
+      "DEPT": "CH ENGR",
+      "COURSE": "CM 114 – Electrochemical Processes",
+      "FALL": 1,
+      "WINTER": 0,
+      "SPRING": 0
+    },
+    {
+      "DEPT": "CH ENGR",
+      "COURSE": "CM 145 – Molecular Biotechnology for Engineers",
+      "FALL": 1,
+      "WINTER": 0,
+      "SPRING": 0
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "69a4a73d937b77a6e4fcf48e"
+  },
+  "source_url": "https://www.seasoasa.ucla.edu/civil-term-offerings/",
+  "scraped_at": {
+    "$date": "2026-03-01T20:53:17.589Z"
+  },
+  "table_data": [
+    {
+      "DEPT": "C&EE",
+      "COURSE": "1 – Civil Engineering and Infrastructure",
+      "FALL": 1,
+      "WINTER": 0,
+      "SPRING": 0
+    },
+    {
+      "DEPT": "C&EE",
+      "COURSE": "M20 – Introduction to Computer Programming with MATLAB (cross-listed with MECH&AE M20)",
+      "FALL": 1,
+      "WINTER": 1,
+      "SPRING": 1
+    },
+    {
+      "DEPT": "C&EE",
+      "COURSE": "91 – Statics",
+      "FALL": 1,
+      "WINTER": 0,
+      "SPRING": 0
+    },
+    {
+      "DEPT": "C&EE",
+      "COURSE": "102 – Dynamics of Particles an",
+      "FALL": 0,
+      "WINTER": 0,
+      "SPRING": 0
+    },
+    {
+      "DEPT": "C&EE",
+      "COURSE": "103 – Applied Numerical Computing and Modeling in Civil and Environmental Engineering",
+      "FALL": 0,
+      "WINTER": 0,
+      "SPRING": 1
+    },
+    {
+      "DEPT": "C&EE",
+      "COURSE": "C104 – Structure, Processing, and Properties of Civil Engineering Materials",
+      "FALL": 0,
+      "WINTER": 1,
+      "SPRING": 0
+    },
+    {
+      "DEPT": "C&EE",
+      "COURSE": "C106 – Modeling and Simulation of Civil Engineering Materials",
+      "FALL": 0,
+      "WINTER": 0,
+      "SPRING": 0
+    },
+    {
+      "DEPT": "C&EE",
+      "COURSE": "107 – Environmental Fluid Mechanics",
+      "FALL": 0,
+      "WINTER": 0,
+      "SPRING": 1
+    },
+    {
+      "DEPT": "C&EE",
+      "COURSE": "109W Ethics in Civil and Environmental Engineering",
+      "FALL": 0,
+      "WINTER": 1,
+      "SPRING": 0
+    },
+    {
+      "DEPT": "C&EE",
+      "COURSE": "108 – Introduction to Mechanics of Deformable Solids",
+      "FALL": 0,
+      "WINTER": 1,
+      "SPRING": 0
+    },
+    {
+      "DEPT": "C&EE",
+      "COURSE": "108L – Experimental Structural Mechanics",
+      "FALL": 0,
+      "WINTER": 1,
+      "SPRING": 0
+    },
+    {
+      "DEPT": "C&EE",
+      "COURSE": "110 – Introduction to Probability and Statistics for Engineers",
+      "FALL": 0,
+      "WINTER": 0,
+      "SPRING": 1
+    },
+    {
+      "DEPT": "C&EE",
+      "COURSE": "C111 – Machine Learning and Artificial Intelligence for Civil Engineering",
+      "FALL": 0,
+      "WINTER": 1,
+      "SPRING": 0
+    },
+    {
+      "DEPT": "C&EE",
+      "COURSE": "116XP Engineering & Environmental Justice",
+      "FALL": 0,
+      "WINTER": 0,
+      "SPRING": 1
+    },
+    {
+      "DEPT": "C&EE",
+      "COURSE": "120 – Principles of Soil Mechanics",
+      "FALL": 1,
+      "WINTER": 0,
+      "SPRING": 0
+    },
+    {
+      "DEPT": "C&EE",
+      "COURSE": "120L – Soil Mechanics Laboratory",
+      "FALL": 0,
+      "WINTER": 1,
+      "SPRING": 0
+    },
+    {
+      "DEPT": "C&EE",
+      "COURSE": "121 – Design of Foundations and Earth Structures",
+      "FALL": 0,
+      "WINTER": 1,
+      "SPRING": 0
+    },
+    {
+      "DEPT": "C&EE",
+      "COURSE": "C123 – Advanced Geotechnical Design",
+      "FALL": 0,
+      "WINTER": 0,
+      "SPRING": 1
+    },
+    {
+      "DEPT": "C&EE",
+      "COURSE": "125 – Fundamentals of Earthquake Engineering",
+      "FALL": 0,
+      "WINTER": 0,
+      "SPRING": 1
+    },
+    {
+      "DEPT": "C&EE",
+      "COURSE": "C128 – Geohazards and Infrastructure Resilience",
+      "FALL": 0,
+      "WINTER": 0,
+      "SPRING": 0
+    },
+    {
+      "DEPT": "C&EE",
+      "COURSE": "129L – Engineering Geomatics",
+      "FALL": 0,
+      "WINTER": 0,
+      "SPRING": 1
+    },
+    {
+      "DEPT": "C&EE",
+      "COURSE": "130 – Elementary Structural Mechanics",
+      "FALL": 0,
+      "WINTER": 0,
+      "SPRING": 1
+    },
+    {
+      "DEPT": "C&EE",
+      "COURSE": "132 – Dynamics of Rigid and Flexible Structures",
+      "FALL": 0,
+      "WINTER": 1,
+      "SPRING": 0
+    },
+    {
+      "DEPT": "C&EE",
+      "COURSE": "135A – Elementary Structural Analysis",
+      "FALL": 1,
+      "WINTER": 0,
+      "SPRING": 0
+    },
+    {
+      "DEPT": "C&EE",
+      "COURSE": "135B – Intermediate Structural Analysis",
+      "FALL": 0,
+      "WINTER": 1,
+      "SPRING": 0
+    },
+    {
+      "DEPT": "C&EE",
+      "COURSE": "135L – Structural Design and Testing Laboratory",
+      "FALL": 1,
+      "WINTER": 0,
+      "SPRING": 1
+    },
+    {
+      "DEPT": "C&EE",
+      "COURSE": "M135C – Introduction to Finite Element Methods",
+      "FALL": 0,
+      "WINTER": 0,
+      "SPRING": 1
+    },
+    {
+      "DEPT": "C&EE",
+      "COURSE": "C137 – Elementary Structural Dynamics",
+      "FALL": 0,
+      "WINTER": 0,
+      "SPRING": 0
+    },
+    {
+      "DEPT": "C&EE",
+      "COURSE": "140L – Structural Components and Systems Testing Laboratory",
+      "FALL": 0,
+      "WINTER": 0,
+      "SPRING": 0
+    },
+    {
+      "DEPT": "C&EE",
+      "COURSE": "141 – Steel Structures",
+      "FALL": 1,
+      "WINTER": 0,
+      "SPRING": 0
+    },
+    {
+      "DEPT": "C&EE",
+      "COURSE": "142 – Design of Reinforced Concrete Structures",
+      "FALL": 0,
+      "WINTER": 1,
+      "SPRING": 0
+    },
+    {
+      "DEPT": "C&EE",
+      "COURSE": "143 – Design of Prestressed Concrete Structures",
+      "FALL": 0,
+      "WINTER": 0,
+      "SPRING": 1
+    },
+    {
+      "DEPT": "C&EE",
+      "COURSE": "144 – Structural Systems Design",
+      "FALL": 0,
+      "WINTER": 0,
+      "SPRING": 1
+    },
+    {
+      "DEPT": "C&EE",
+      "COURSE": "147 – Design and Construction of Tall Buildings",
+      "FALL": 0,
+      "WINTER": 1,
+      "SPRING": 0
+    },
+    {
+      "DEPT": "C&EE",
+      "COURSE": "150 – Introduction to Hydrology",
+      "FALL": 1,
+      "WINTER": 0,
+      "SPRING": 0
+    },
+    {
+      "DEPT": "C&EE",
+      "COURSE": "151 – Introduction to Water Resources Engineering",
+      "FALL": 0,
+      "WINTER": 1,
+      "SPRING": 0
+    },
+    {
+      "DEPT": "C&EE",
+      "COURSE": "152 – Hydraulic and Hydrologic Design",
+      "FALL": 0,
+      "WINTER": 0,
+      "SPRING": 1
+    },
+    {
+      "DEPT": "C&EE",
+      "COURSE": "153 – Introduction to Environmental Engineering Science",
+      "FALL": 1,
+      "WINTER": 0,
+      "SPRING": 0
+    },
+    {
+      "DEPT": "C&EE",
+      "COURSE": "154 – Chemical Fate and Transport in Aquatic Environments",
+      "FALL": 0,
+      "WINTER": 1,
+      "SPRING": 0
+    },
+    {
+      "DEPT": "C&EE",
+      "COURSE": "155 – Unit Operations and Processes for Water and Wastewater Treatment",
+      "FALL": 1,
+      "WINTER": 0,
+      "SPRING": 0
+    },
+    {
+      "DEPT": "C&EE",
+      "COURSE": "156A – Environmental Chemistry Laboratory",
+      "FALL": 1,
+      "WINTER": 0,
+      "SPRING": 1
+    },
+    {
+      "DEPT": "C&EE",
+      "COURSE": "156B – Environmental Engineering Unit Operations and Processes Laboratory",
+      "FALL": 0,
+      "WINTER": 1,
+      "SPRING": 0
+    },
+    {
+      "DEPT": "C&EE",
+      "COURSE": "157C – Design of Wastewater Treatment Plants",
+      "FALL": 0,
+      "WINTER": 0,
+      "SPRING": 1
+    },
+    {
+      "DEPT": "C&EE",
+      "COURSE": "157L – Hydrologic Analysis",
+      "FALL": 0,
+      "WINTER": 1,
+      "SPRING": 0
+    },
+    {
+      "DEPT": "C&EE",
+      "COURSE": "C158 – Coastal Engineering",
+      "FALL": 0,
+      "WINTER": 0,
+      "SPRING": 1
+    },
+    {
+      "DEPT": "C&EE",
+      "COURSE": "C159 – Green Infrastructure",
+      "FALL": 0,
+      "WINTER": 0,
+      "SPRING": 1
+    },
+    {
+      "DEPT": "C&EE",
+      "COURSE": "C164 – Sustainable Waste Management",
+      "FALL": 0,
+      "WINTER": 1,
+      "SPRING": 0
+    },
+    {
+      "DEPT": "C&EE",
+      "COURSE": "M165 – Environmental Nanotechnology: Implications and Applications",
+      "FALL": 0,
+      "WINTER": 0,
+      "SPRING": 1
+    },
+    {
+      "DEPT": "C&EE",
+      "COURSE": "M166 – Environmental Microbiology",
+      "FALL": 0,
+      "WINTER": 1,
+      "SPRING": 0
+    },
+    {
+      "DEPT": "C&EE",
+      "COURSE": "170 – Introduction to Construction Management",
+      "FALL": 0,
+      "WINTER": 0,
+      "SPRING": 1
+    },
+    {
+      "DEPT": "C&EE",
+      "COURSE": "180 – Introduction to Transportation Engineering",
+      "FALL": 0,
+      "WINTER": 0,
+      "SPRING": 1
+    },
+    {
+      "DEPT": "C&EE",
+      "COURSE": "C181 – Traffic Engineering Systems: Operations and Control",
+      "FALL": 1,
+      "WINTER": 0,
+      "SPRING": 0
+    },
+    {
+      "DEPT": "C&EE",
+      "COURSE": "C182 –Rigid and Flexible Pavements: Design, Materials, and Serviceability",
+      "FALL": 0,
+      "WINTER": 0,
+      "SPRING": 0
+    },
+    {
+      "DEPT": "C&EE",
+      "COURSE": "C183 Transportation Sustainability",
+      "FALL": 1,
+      "WINTER": 0,
+      "SPRING": 0
+    },
+    {
+      "DEPT": "C&EE",
+      "COURSE": "C185 – Transportation Systems Analysis",
+      "FALL": 0,
+      "WINTER": 1,
+      "SPRING": 0
+    },
+    {
+      "DEPT": "C&EE",
+      "COURSE": "C186 – Intelligent Transportation Systems",
+      "FALL": 0,
+      "WINTER": 0,
+      "SPRING": 1
+    },
+    {
+      "DEPT": "C&EE",
+      "COURSE": "188 – Special Courses in Civil and Environmental Engineering",
+      "FALL": 0,
+      "WINTER": 0,
+      "SPRING": 0
+    },
+    {
+      "DEPT": "C&EE",
+      "COURSE": "190 – Professional Practice",
+      "FALL": 1,
+      "WINTER": 0,
+      "SPRING": 0
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "69a4a742937b77a6e4fcf48f"
+  },
+  "source_url": "https://www.seasoasa.ucla.edu/ee-course-term-offerings/",
+  "scraped_at": {
+    "$date": "2026-03-01T20:53:22.779Z"
+  },
+  "table_data": [
+    {
+      "1_—_Undergraduate_Seminar": "2– Physics for Electrical Engineers",
+      "Fall_25": "Fall 25",
+      "—": 1
+    },
+    {
+      "1_—_Undergraduate_Seminar": "2H — Physics for Electrical Engineers (Honors)",
+      "Fall_25": 0,
+      "—": 0
+    },
+    {
+      "1_—_Undergraduate_Seminar": "3 — Introduction to Electrical Engineering",
+      "Fall_25": "Fall 25",
+      "—": 1
+    },
+    {
+      "1_—_Undergraduate_Seminar": "10 — Circuit Theory I",
+      "Fall_25": 0,
+      "—": 0
+    },
+    {
+      "1_—_Undergraduate_Seminar": "10H — Circuit Theory I (Honors)",
+      "Fall_25": "Fall 25",
+      "—": 0
+    },
+    {
+      "1_—_Undergraduate_Seminar": "11L — Circuits Laboratory I",
+      "Fall_25": "Fall 25",
+      "—": 0
+    },
+    {
+      "1_—_Undergraduate_Seminar": "M16 — Logic Design of Digital Systems (same as CS M51A)",
+      "Fall_25": "Fall 25(CS M51A only)",
+      "—": 1
+    },
+    {
+      "1_—_Undergraduate_Seminar": "100 — Electrical and Electronic Circuits",
+      "Fall_25": "Fall 25",
+      "—": 1
+    },
+    {
+      "1_—_Undergraduate_Seminar": "101A — Engineering Electromagnetics",
+      "Fall_25": "Fall 25",
+      "—": 0
+    },
+    {
+      "1_—_Undergraduate_Seminar": "101B — Electromagnetic Waves",
+      "Fall_25": 0,
+      "—": 1
+    },
+    {
+      "1_—_Undergraduate_Seminar": "102 — Systems and Signals",
+      "Fall_25": "Fall 25",
+      "—": 1
+    },
+    {
+      "1_—_Undergraduate_Seminar": "110 — Circuit Theory II",
+      "Fall_25": 0,
+      "—": 1
+    },
+    {
+      "1_—_Undergraduate_Seminar": "110H — Circuit Theory II (Honors)",
+      "Fall_25": 0,
+      "—": 0
+    },
+    {
+      "1_—_Undergraduate_Seminar": "110L — Circuit Measurements Laboratory",
+      "Fall_25": "Fall 25",
+      "—": 1
+    },
+    {
+      "1_—_Undergraduate_Seminar": "111L — Circuits Laboratory II",
+      "Fall_25": 0,
+      "—": 1
+    },
+    {
+      "1_—_Undergraduate_Seminar": "112 — Introduction to Power Systems#",
+      "Fall_25": "Fall 25",
+      "—": 0
+    },
+    {
+      "1_—_Undergraduate_Seminar": "113 — Digital Signal Processing",
+      "Fall_25": "Fall 25",
+      "—": 1
+    },
+    {
+      "1_—_Undergraduate_Seminar": "113DA — Digital Signal Processing Design",
+      "Fall_25": "Fall 25",
+      "—": 0
+    },
+    {
+      "1_—_Undergraduate_Seminar": "113DW — Digital Signal Processing Design",
+      "Fall_25": 0,
+      "—": 0
+    },
+    {
+      "1_—_Undergraduate_Seminar": "114 — Speech and Image Processing Systems Design",
+      "Fall_25": "Fall 25",
+      "—": 0
+    },
+    {
+      "1_—_Undergraduate_Seminar": "115A — Analog Electronic Circuits I",
+      "Fall_25": "Fall 25",
+      "—": 1
+    },
+    {
+      "1_—_Undergraduate_Seminar": "115B — Analog Electronic Circuits II",
+      "Fall_25": 0,
+      "—": 0
+    },
+    {
+      "1_—_Undergraduate_Seminar": "115C — Digital Electronic Circuits",
+      "Fall_25": 0,
+      "—": 1
+    },
+    {
+      "1_—_Undergraduate_Seminar": "115DA — Electronic Circuits and Systems Design",
+      "Fall_25": 0,
+      "—": 0
+    },
+    {
+      "1_—_Undergraduate_Seminar": "115DW — Electronic Circuits and Systems Design",
+      "Fall_25": 0,
+      "—": 1
+    },
+    {
+      "1_—_Undergraduate_Seminar": "115E — Design Studies in Electronic Circuits",
+      "Fall_25": 0,
+      "—": 1
+    },
+    {
+      "1_—_Undergraduate_Seminar": "M116C — Computer Systems Architecture",
+      "Fall_25": "Fall 25",
+      "—": 1
+    },
+    {
+      "1_—_Undergraduate_Seminar": "M116L — Introductory Digital Design Laboratory",
+      "Fall_25": "Fall 25",
+      "—": 1
+    },
+    {
+      "1_—_Undergraduate_Seminar": "M117 — Computer System Security",
+      "Fall_25": "Fall 25",
+      "—": 0
+    },
+    {
+      "1_—_Undergraduate_Seminar": "M119 — Fundamentals of Embedded Networked Systems",
+      "Fall_25": 0,
+      "—": 0
+    },
+    {
+      "1_—_Undergraduate_Seminar": "121B — Principles of Semiconductor Device Design",
+      "Fall_25": "Fall 25",
+      "—": 0
+    },
+    {
+      "1_—_Undergraduate_Seminar": "121DA — Semiconductor Processing and Device Design",
+      "Fall_25": 0,
+      "—": 0
+    },
+    {
+      "1_—_Undergraduate_Seminar": "121DW — Semiconductor Processing and Device Design",
+      "Fall_25": 0,
+      "—": 1
+    },
+    {
+      "1_—_Undergraduate_Seminar": "123A — Fundamentals of Solid-State I",
+      "Fall_25": 0,
+      "—": 0
+    },
+    {
+      "1_—_Undergraduate_Seminar": "123B — Fundamentals of Solid-State II",
+      "Fall_25": 0,
+      "—": 0
+    },
+    {
+      "1_—_Undergraduate_Seminar": "128 — Principles of Nanoelectronics",
+      "Fall_25": 0,
+      "—": 1
+    },
+    {
+      "1_—_Undergraduate_Seminar": "131A — Probability and Statistics",
+      "Fall_25": "Fall 25",
+      "—": 1
+    },
+    {
+      "1_—_Undergraduate_Seminar": "132A — Introduction to Communication Systems",
+      "Fall_25": 0,
+      "—": 1
+    },
+    {
+      "1_—_Undergraduate_Seminar": "132B — Data Communications and Telecommunication Networks",
+      "Fall_25": "Fall 25",
+      "—": 0
+    },
+    {
+      "1_—_Undergraduate_Seminar": "133A — Applied Numerical Computing",
+      "Fall_25": "Fall 25",
+      "—": 0
+    },
+    {
+      "1_—_Undergraduate_Seminar": "133B — Simulation, Optimization, and Data Analysis",
+      "Fall_25": 0,
+      "—": 0
+    },
+    {
+      "1_—_Undergraduate_Seminar": "134 — Graph Theory in Engineering",
+      "Fall_25": 0,
+      "—": 0
+    },
+    {
+      "1_—_Undergraduate_Seminar": "141 — Principles of Feedback Control",
+      "Fall_25": 0,
+      "—": 1
+    },
+    {
+      "1_—_Undergraduate_Seminar": "C143A — Neural Signal Processing and Machine Learning",
+      "Fall_25": "Fall 25",
+      "—": 0
+    },
+    {
+      "1_—_Undergraduate_Seminar": "M146 — Introduction to Machine Learning",
+      "Fall_25": "Fall 25 (CS)",
+      "—": 1
+    },
+    {
+      "1_—_Undergraduate_Seminar": "C147A — Neural Networks and Deep Learning",
+      "Fall_25": 0,
+      "—": 0
+    },
+    {
+      "1_—_Undergraduate_Seminar": "C147B — Neural Networks and Deep Learning II",
+      "Fall_25": 0,
+      "—": 1
+    },
+    {
+      "1_—_Undergraduate_Seminar": "M148 — Introduction to Data Science",
+      "Fall_25": "Fall 25 (CS)",
+      "—": 1
+    },
+    {
+      "1_—_Undergraduate_Seminar": "149 — Foundations of Computer Vision",
+      "Fall_25": 0,
+      "—": 0
+    },
+    {
+      "1_—_Undergraduate_Seminar": "M153 — Introduction to Microscale and Nanoscale Manufacturing*",
+      "Fall_25": 0,
+      "—": 0
+    },
+    {
+      "1_—_Undergraduate_Seminar": "162A — Wireless Communication Links and Antennas",
+      "Fall_25": 0,
+      "—": 0
+    },
+    {
+      "1_—_Undergraduate_Seminar": "163A — Introductory Microwave Circuits",
+      "Fall_25": "Fall 25",
+      "—": 0
+    },
+    {
+      "1_—_Undergraduate_Seminar": "163C — Introduction to Microwave Systems",
+      "Fall_25": 0,
+      "—": 0
+    },
+    {
+      "1_—_Undergraduate_Seminar": "163DA — Microwave and Wireless Design I",
+      "Fall_25": 0,
+      "—": 0
+    },
+    {
+      "1_—_Undergraduate_Seminar": "163DB — Microwave and Wireless Design II",
+      "Fall_25": 0,
+      "—": 0
+    },
+    {
+      "1_—_Undergraduate_Seminar": "170A — Principles of Photonics",
+      "Fall_25": "Fall 25",
+      "—": 0
+    },
+    {
+      "1_—_Undergraduate_Seminar": "170B — Photonic Devices and Circuits",
+      "Fall_25": 0,
+      "—": 1
+    },
+    {
+      "1_—_Undergraduate_Seminar": "170C — Photonic Sensors and Solar Cells",
+      "Fall_25": 0,
+      "—": 0
+    },
+    {
+      "1_—_Undergraduate_Seminar": "173DA — Photonics and Communication Design",
+      "Fall_25": 0,
+      "—": 0
+    },
+    {
+      "1_—_Undergraduate_Seminar": "173DB — Photonics and Communication Design",
+      "Fall_25": 0,
+      "—": 0
+    },
+    {
+      "1_—_Undergraduate_Seminar": "176 — Photonics in Biomedical Applications",
+      "Fall_25": 0,
+      "—": 0
+    },
+    {
+      "1_—_Undergraduate_Seminar": "180DA — Systems Design",
+      "Fall_25": "Fall 25",
+      "—": 0
+    },
+    {
+      "1_—_Undergraduate_Seminar": "180DW — Systems Design",
+      "Fall_25": 0,
+      "—": 1
+    },
+    {
+      "1_—_Undergraduate_Seminar": "CM182 — Science, Technology, and Public Policy",
+      "Fall_25": 0,
+      "—": 0
+    },
+    {
+      "1_—_Undergraduate_Seminar": "183DA — Design of Robotic Systems",
+      "Fall_25": 0,
+      "—": 0
+    },
+    {
+      "1_—_Undergraduate_Seminar": "183DB — Design of Robotic Systems",
+      "Fall_25": 0,
+      "—": 0
+    },
+    {
+      "1_—_Undergraduate_Seminar": "M185 — Introduction to Plasma Electronics",
+      "Fall_25": 0,
+      "—": 0
+    },
+    {
+      "1_—_Undergraduate_Seminar": "188.1 — Special Courses in Electrical Engineering — Power Electronics",
+      "Fall_25": "Fall 25",
+      "—": 0
+    },
+    {
+      "1_—_Undergraduate_Seminar": "188.2 — Special Courses in Electrical Engineering –",
+      "Fall_25": 0,
+      "—": 0
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "69a4a744937b77a6e4fcf490"
+  },
+  "source_url": "https://www.seasoasa.ucla.edu/materials-science-and-engineering-course-offerings/",
+  "scraped_at": {
+    "$date": "2026-03-01T20:53:24.992Z"
+  },
+  "table_data": [
+    {
+      "DEPT": "MAT SCI",
+      "COURSE": "10 – New Materials",
+      "FALL": 1,
+      "WINTER": 0,
+      "SPRING": 0
+    },
+    {
+      "DEPT": "MAT SCI",
+      "COURSE": "33W – Materials Structure and Technology in Archaeology and Architecture",
+      "FALL": 1,
+      "WINTER": 0,
+      "SPRING": 0
+    },
+    {
+      "DEPT": "MAT SCI",
+      "COURSE": "90L – Physical Measurement in Materials Engineering",
+      "FALL": 0,
+      "WINTER": 1,
+      "SPRING": 1
+    },
+    {
+      "DEPT": "MAT SCI",
+      "COURSE": "104 – Science of Engineering Materials",
+      "FALL": 1,
+      "WINTER": 1,
+      "SPRING": 1
+    },
+    {
+      "DEPT": "MAT SCI",
+      "COURSE": "105 – Principles of Nanoscience and Nanotechnology",
+      "FALL": 1,
+      "WINTER": 0,
+      "SPRING": 0
+    },
+    {
+      "DEPT": "MAT SCI",
+      "COURSE": "110 – Introduction to Materials Characterization A (Crystal Structure, Nanostructures, and X-Ray Scattering)",
+      "FALL": 1,
+      "WINTER": 0,
+      "SPRING": 0
+    },
+    {
+      "DEPT": "MAT SCI",
+      "COURSE": "110L – Introduction to Materials Characterization A Laboratory",
+      "FALL": 1,
+      "WINTER": 0,
+      "SPRING": 0
+    },
+    {
+      "DEPT": "MAT SCI",
+      "COURSE": "C111 – Introduction to Materials Characterization B (Electron Microscopy)",
+      "FALL": 0,
+      "WINTER": 1,
+      "SPRING": 0
+    },
+    {
+      "DEPT": "MAT SCI",
+      "COURSE": "111L – Introduction to Materials Characterization B Laboratory",
+      "FALL": 0,
+      "WINTER": 0,
+      "SPRING": 1
+    },
+    {
+      "DEPT": "MAT SCI",
+      "COURSE": "C112 – Cultural Materials Science II: Characterization Methods in Conservation of Materials",
+      "FALL": 0,
+      "WINTER": 0,
+      "SPRING": 0
+    },
+    {
+      "DEPT": "MAT SCI",
+      "COURSE": "120 – Physics of Materials",
+      "FALL": 0,
+      "WINTER": 1,
+      "SPRING": 0
+    },
+    {
+      "DEPT": "MAT SCI",
+      "COURSE": "121 – Materials Science of Semiconductors",
+      "FALL": 0,
+      "WINTER": 0,
+      "SPRING": 1
+    },
+    {
+      "DEPT": "MAT SCI",
+      "COURSE": "121L – Materials Science of Semiconductors Laboratory",
+      "FALL": 0,
+      "WINTER": 0,
+      "SPRING": 1
+    },
+    {
+      "DEPT": "MAT SCI",
+      "COURSE": "122 – Principles of Electronic Materials Processing",
+      "FALL": 0,
+      "WINTER": 1,
+      "SPRING": 0
+    },
+    {
+      "DEPT": "MAT SCI",
+      "COURSE": "130 – Phase Relations in Solids",
+      "FALL": 1,
+      "WINTER": 0,
+      "SPRING": 0
+    },
+    {
+      "DEPT": "MAT SCI",
+      "COURSE": "131 – Diffusion and Diffusion-Controlled Reactions",
+      "FALL": 0,
+      "WINTER": 1,
+      "SPRING": 0
+    },
+    {
+      "DEPT": "MAT SCI",
+      "COURSE": "131L – Diffusion and Diffusion -Controlled Reactions Laboratory",
+      "FALL": 0,
+      "WINTER": 1,
+      "SPRING": 0
+    },
+    {
+      "DEPT": "MAT SCI",
+      "COURSE": "132 – Structure and Properties of Metallic Alloys",
+      "FALL": 0,
+      "WINTER": 0,
+      "SPRING": 1
+    },
+    {
+      "DEPT": "MAT SCI",
+      "COURSE": "C133 –",
+      "FALL": 0,
+      "WINTER": 0,
+      "SPRING": 0
+    },
+    {
+      "DEPT": "MAT SCI",
+      "COURSE": "140A – Materials Selection and Engineering Design A",
+      "FALL": 0,
+      "WINTER": 1,
+      "SPRING": 0
+    },
+    {
+      "DEPT": "MAT SCI",
+      "COURSE": "140B – Materials Selection and Engineering Design B",
+      "FALL": 0,
+      "WINTER": 0,
+      "SPRING": 1
+    },
+    {
+      "DEPT": "MAT SCI",
+      "COURSE": "141L – Computer Methods and Instrumentation in Materials Science",
+      "FALL": 0,
+      "WINTER": 1,
+      "SPRING": 0
+    },
+    {
+      "DEPT": "MAT SCI",
+      "COURSE": "143A – Mechanical Behavior of Materials",
+      "FALL": 0,
+      "WINTER": 1,
+      "SPRING": 0
+    },
+    {
+      "DEPT": "MAT SCI",
+      "COURSE": "143L – Mechanical Behavior Laboratory",
+      "FALL": 0,
+      "WINTER": 0,
+      "SPRING": 0
+    },
+    {
+      "DEPT": "MAT SCI",
+      "COURSE": "150 – Introduction to Polymers",
+      "FALL": 0,
+      "WINTER": 1,
+      "SPRING": 0
+    },
+    {
+      "DEPT": "MAT SCI",
+      "COURSE": "151 – Structure and Properties of Composite Materials",
+      "FALL": 0,
+      "WINTER": 0,
+      "SPRING": 1
+    },
+    {
+      "DEPT": "MAT SCI",
+      "COURSE": "160 – Introduction to Ceramics and Glasses",
+      "FALL": 1,
+      "WINTER": 0,
+      "SPRING": 0
+    },
+    {
+      "DEPT": "MAT SCI",
+      "COURSE": "161 – Processing of Ceramics and Glasses",
+      "FALL": 0,
+      "WINTER": 0,
+      "SPRING": 0
+    },
+    {
+      "DEPT": "MAT SCI",
+      "COURSE": "161L – Laboratory in Ceramics",
+      "FALL": 0,
+      "WINTER": 0,
+      "SPRING": 1
+    },
+    {
+      "DEPT": "MAT SCI",
+      "COURSE": "162 – Electronic Materials",
+      "FALL": 0,
+      "WINTER": 0,
+      "SPRING": 0
+    },
+    {
+      "DEPT": "MAT SCI",
+      "COURSE": "CM163 – Electrochemical Processes",
+      "FALL": 1,
+      "WINTER": 0,
+      "SPRING": 0
+    },
+    {
+      "DEPT": "MAT SCI",
+      "COURSE": 0,
+      "FALL": 0,
+      "WINTER": 0,
+      "SPRING": 0
+    },
+    {
+      "DEPT": "MAT SCI",
+      "COURSE": 0,
+      "FALL": 0,
+      "WINTER": 0,
+      "SPRING": 0
+    },
+    {
+      "DEPT": "MAT SCI",
+      "COURSE": "CM 180 – Introduction to Biomaterials",
+      "FALL": 1,
+      "WINTER": 0,
+      "SPRING": 0
+    },
+    {
+      "DEPT": "MAT SCI",
+      "COURSE": "188 – Special Courses in Materials Science",
+      "FALL": 0,
+      "WINTER": 0,
+      "SPRING": 0
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "69a4a747937b77a6e4fcf491"
+  },
+  "source_url": "https://www.seasoasa.ucla.edu/mae-course-term-offerings/",
+  "scraped_at": {
+    "$date": "2026-03-01T20:53:27.274Z"
+  },
+  "table_data": [
+    {
+      "empty_header_0": 0,
+      "MECH&AE_1_–Undergraduate_Seminar": "MECH&AE 20P–Introduction to Computer Programming with PythonMECH&AE M20 (same as C&EE M20)  –Introduction to Computer Programming with MATLAB",
+      "empty_header_2": 1,
+      "Fall_2025": 1,
+      "–": 1
+    },
+    {
+      "empty_header_0": 0,
+      "MECH&AE_1_–Undergraduate_Seminar": "MECH&AE 82 –Mathematics of Engineering",
+      "empty_header_2": 0,
+      "Fall_2025": 1,
+      "–": 1
+    },
+    {
+      "empty_header_0": 0,
+      "MECH&AE_1_–Undergraduate_Seminar": "MECH&AE 94 –Introduction to Computer-Aided Design and Drafting Updated 08/27/2025",
+      "empty_header_2": 1,
+      "Fall_2025": 1,
+      "–": 1
+    },
+    {
+      "empty_header_0": 0,
+      "MECH&AE_1_–Undergraduate_Seminar": "MECH&AE 101 –Statics and Strength of Materials",
+      "empty_header_2": 0,
+      "Fall_2025": 1,
+      "–": 1
+    },
+    {
+      "empty_header_0": 0,
+      "MECH&AE_1_–Undergraduate_Seminar": "MECH&AE 102  –Dynamics of Particles and Rigid Bodies",
+      "empty_header_2": 0,
+      "Fall_2025": 1,
+      "–": 1
+    },
+    {
+      "empty_header_0": 0,
+      "MECH&AE_1_–Undergraduate_Seminar": "MECH&AE 103 –Elementary Fluid Mechanics",
+      "empty_header_2": 0,
+      "Fall_2025": 1,
+      "–": 1
+    },
+    {
+      "empty_header_0": 0,
+      "MECH&AE_1_–Undergraduate_Seminar": "MECH&AE 105A –Introduction to Engineering Thermodynamics",
+      "empty_header_2": 0,
+      "Fall_2025": 1,
+      "–": 1
+    },
+    {
+      "empty_header_0": 0,
+      "MECH&AE_1_–Undergraduate_Seminar": "MECH&AE  105D –Transport Phenomena",
+      "empty_header_2": 0,
+      "Fall_2025": 1,
+      "–": 1
+    },
+    {
+      "empty_header_0": 0,
+      "MECH&AE_1_–Undergraduate_Seminar": "MECH&AE 107 –Introduction to Modeling and Analysis of Dynamic Systems",
+      "empty_header_2": 1,
+      "Fall_2025": 1,
+      "–": 1
+    },
+    {
+      "empty_header_0": 0,
+      "MECH&AE_1_–Undergraduate_Seminar": "MECH&AE 131A –Intermediate Heat Transfer",
+      "empty_header_2": 0,
+      "Fall_2025": 1,
+      "–": 0
+    },
+    {
+      "empty_header_0": 0,
+      "MECH&AE_1_–Undergraduate_Seminar": "MECH&AE C131G–Microscopic Energy Transport",
+      "empty_header_2": 0,
+      "Fall_2025": 1,
+      "–": 0
+    },
+    {
+      "empty_header_0": 0,
+      "MECH&AE_1_–Undergraduate_Seminar": "MECH&AE C132A – Mass Transfer (NOT OFFERED 2025-2026)",
+      "empty_header_2": 0,
+      "Fall_2025": 0,
+      "–": 0
+    },
+    {
+      "empty_header_0": 0,
+      "MECH&AE_1_–Undergraduate_Seminar": "MECH&AE 133A –Engineering Thermodynamics",
+      "empty_header_2": 0,
+      "Fall_2025": 0,
+      "–": 1
+    },
+    {
+      "empty_header_0": 0,
+      "MECH&AE_1_–Undergraduate_Seminar": "MECH&AE C134 – Introduction to Bayesian Statistics for Data-Driven Science and Engineering [NOT OFFERED 2025-2026 (updated 01/27/2026)]",
+      "empty_header_2": 0,
+      "Fall_2025": 0,
+      "–": 0
+    },
+    {
+      "empty_header_0": 0,
+      "MECH&AE_1_–Undergraduate_Seminar": "MECH&AE C136 –Energy and Environment(NOT OFFERED 2025-2026)",
+      "empty_header_2": 0,
+      "Fall_2025": 0,
+      "–": 0
+    },
+    {
+      "empty_header_0": 0,
+      "MECH&AE_1_–Undergraduate_Seminar": "MECH&AE C137 –Design and Analysis of Smart Grids (Updated 01/27/2026)",
+      "empty_header_2": 0,
+      "Fall_2025": 0,
+      "–": 0
+    },
+    {
+      "empty_header_0": 0,
+      "MECH&AE_1_–Undergraduate_Seminar": "MECH&AE C138 – Introduction to Statistical Thermodynamics",
+      "empty_header_2": 0,
+      "Fall_2025": 0,
+      "–": 1
+    },
+    {
+      "empty_header_0": 0,
+      "MECH&AE_1_–Undergraduate_Seminar": "MECH&AE CM140 –Introduction to Biomechanics(NOT OFFERED 2025-2026) updated 08/27/2025",
+      "empty_header_2": 0,
+      "Fall_2025": 0,
+      "–": 0
+    },
+    {
+      "empty_header_0": 0,
+      "MECH&AE_1_–Undergraduate_Seminar": "MECH&AE 150A –Intermediate Fluid Mechanics",
+      "empty_header_2": 0,
+      "Fall_2025": 1,
+      "–": 0
+    },
+    {
+      "empty_header_0": 0,
+      "MECH&AE_1_–Undergraduate_Seminar": "MECH&AE 150B –Aerodynamics",
+      "empty_header_2": 0,
+      "Fall_2025": 0,
+      "–": 1
+    },
+    {
+      "empty_header_0": 0,
+      "MECH&AE_1_–Undergraduate_Seminar": "MECH&AE 150C – Combustion Systems(NOT OFFERED 2025-2026)",
+      "empty_header_2": 0,
+      "Fall_2025": 0,
+      "–": 0
+    },
+    {
+      "empty_header_0": 0,
+      "MECH&AE_1_–Undergraduate_Seminar": "MECH&AE C150G –Fluid Dynamics of Biological Systems(NOT OFFERED 2025-2026)",
+      "empty_header_2": 0,
+      "Fall_2025": 0,
+      "–": 0
+    },
+    {
+      "empty_header_0": 0,
+      "MECH&AE_1_–Undergraduate_Seminar": "MECH&AE C150P –Aircraft Propulsion Systems",
+      "empty_header_2": 0,
+      "Fall_2025": 1,
+      "–": 0
+    },
+    {
+      "empty_header_0": 0,
+      "MECH&AE_1_–Undergraduate_Seminar": "MECH&AE C150R –Rocket Propulsion Systems",
+      "empty_header_2": 0,
+      "Fall_2025": 0,
+      "–": 1
+    },
+    {
+      "empty_header_0": 0,
+      "MECH&AE_1_–Undergraduate_Seminar": "MECH&AE 154A –Preliminary Design of Aircraft",
+      "empty_header_2": 0,
+      "Fall_2025": 0,
+      "–": 0
+    },
+    {
+      "empty_header_0": 0,
+      "MECH&AE_1_–Undergraduate_Seminar": "MECH&AE 154B -Design of Aerospace Structures (NOT OFFERED 2025-2026)",
+      "empty_header_2": 0,
+      "Fall_2025": 0,
+      "–": 0
+    },
+    {
+      "empty_header_0": 0,
+      "MECH&AE_1_–Undergraduate_Seminar": "MECH&AE 154S –Flight Mechanics, Stability, and Control of Aircraft",
+      "empty_header_2": 0,
+      "Fall_2025": 1,
+      "–": 0
+    },
+    {
+      "empty_header_0": 0,
+      "MECH&AE_1_–Undergraduate_Seminar": "MECH&AE 155– Intermediate Dynamics(NOT OFFERED 2025-2026)",
+      "empty_header_2": 0,
+      "Fall_2025": 0,
+      "–": 0
+    },
+    {
+      "empty_header_0": 0,
+      "MECH&AE_1_–Undergraduate_Seminar": "MECH&AE 156A –Advanced Strength of Materials",
+      "empty_header_2": 0,
+      "Fall_2025": 1,
+      "–": 1
+    },
+    {
+      "empty_header_0": 0,
+      "MECH&AE_1_–Undergraduate_Seminar": "MECH&AE C156B – Mechanical Design for Power Transmission (NOT OFFERED 2025-2026)",
+      "empty_header_2": 0,
+      "Fall_2025": 0,
+      "–": 0
+    },
+    {
+      "empty_header_0": 0,
+      "MECH&AE_1_–Undergraduate_Seminar": "MECH&AE 157A –Aerospace Design Laboratory(NOT OFFERED 2025-2026)",
+      "empty_header_2": 1,
+      "Fall_2025": 0,
+      "–": 0
+    },
+    {
+      "empty_header_0": 0,
+      "MECH&AE_1_–Undergraduate_Seminar": "MECH&AE 157D –Aerospace Design Laboratory (I)",
+      "empty_header_2": 1,
+      "Fall_2025": 0,
+      "–": 0
+    },
+    {
+      "empty_header_0": 0,
+      "MECH&AE_1_–Undergraduate_Seminar": "MECH&AE 157E –Aerospace Design Laboratory (II)",
+      "empty_header_2": 1,
+      "Fall_2025": 0,
+      "–": 1
+    },
+    {
+      "empty_header_0": 0,
+      "MECH&AE_1_–Undergraduate_Seminar": "MECH&AE 157W –Basic Mechanical and Aerospace Engineering Laboratory",
+      "empty_header_2": 1,
+      "Fall_2025": 1,
+      "–": 1
+    },
+    {
+      "empty_header_0": 0,
+      "MECH&AE_1_–Undergraduate_Seminar": "MECH&AE 161A –Introduction to Astronautics",
+      "empty_header_2": 0,
+      "Fall_2025": 1,
+      "–": 0
+    },
+    {
+      "empty_header_0": 0,
+      "MECH&AE_1_–Undergraduate_Seminar": "MECH&AE 161B –Introduction to Space Technology",
+      "empty_header_2": 0,
+      "Fall_2025": 0,
+      "–": 0
+    },
+    {
+      "empty_header_0": 0,
+      "MECH&AE_1_–Undergraduate_Seminar": "MECH&AE 161C –Spacecraft Design",
+      "empty_header_2": 0,
+      "Fall_2025": 0,
+      "–": 1
+    },
+    {
+      "empty_header_0": 0,
+      "MECH&AE_1_–Undergraduate_Seminar": "MECH&AE 162A –Introduction to Mechanisms and Mechanical Systems",
+      "empty_header_2": 0,
+      "Fall_2025": 1,
+      "–": 1
+    },
+    {
+      "empty_header_0": 0,
+      "MECH&AE_1_–Undergraduate_Seminar": "MECH&AE C162B– Compliant Mechanism Design",
+      "empty_header_2": 0,
+      "Fall_2025": 0,
+      "–": 0
+    },
+    {
+      "empty_header_0": 0,
+      "MECH&AE_1_–Undergraduate_Seminar": "MECH&AE 162D –Mechanical Engineering Design I(please reference the MAE FAQ for details about 162D/E)",
+      "empty_header_2": 1,
+      "Fall_2025": 0,
+      "–": 0
+    },
+    {
+      "empty_header_0": 0,
+      "MECH&AE_1_–Undergraduate_Seminar": "MECH&AE 162E –Mechanical Engineering Design II(please reference the MAE FAQ for details about 162D/E)",
+      "empty_header_2": 1,
+      "Fall_2025": 0,
+      "–": 1
+    },
+    {
+      "empty_header_0": 0,
+      "MECH&AE_1_–Undergraduate_Seminar": "MECH&AE C163A –Kinematics of Robotic Systems",
+      "empty_header_2": 0,
+      "Fall_2025": 1,
+      "–": 0
+    },
+    {
+      "empty_header_0": 0,
+      "MECH&AE_1_–Undergraduate_Seminar": "MECH&AE C163B –Dynamics of Robotic Systems",
+      "empty_header_2": 0,
+      "Fall_2025": 0,
+      "–": 0
+    },
+    {
+      "empty_header_0": 0,
+      "MECH&AE_1_–Undergraduate_Seminar": "MECH&AE C163C –Control of Robotic Systems",
+      "empty_header_2": 0,
+      "Fall_2025": 0,
+      "–": 1
+    },
+    {
+      "empty_header_0": 0,
+      "MECH&AE_1_–Undergraduate_Seminar": "MECH&AE 166A –Analysis of Aerospace Structures",
+      "empty_header_2": 0,
+      "Fall_2025": 1,
+      "–": 0
+    },
+    {
+      "empty_header_0": 0,
+      "MECH&AE_1_–Undergraduate_Seminar": "MECH&AE 166C –Design of Composite Structures",
+      "empty_header_2": 0,
+      "Fall_2025": 0,
+      "–": 0
+    },
+    {
+      "empty_header_0": 0,
+      "MECH&AE_1_–Undergraduate_Seminar": "MECH&AE M168 –Introduction to Finite Element Methods",
+      "empty_header_2": 0,
+      "Fall_2025": 0,
+      "–": 1
+    },
+    {
+      "empty_header_0": 0,
+      "MECH&AE_1_–Undergraduate_Seminar": "MECH&AE 169A – Introduction to Mechanical Vibrations",
+      "empty_header_2": 0,
+      "Fall_2025": 0,
+      "–": 0
+    },
+    {
+      "empty_header_0": 0,
+      "MECH&AE_1_–Undergraduate_Seminar": "MECH&AE 171A –Introduction to Feedback and Control Systems",
+      "empty_header_2": 0,
+      "Fall_2025": 1,
+      "–": 1
+    },
+    {
+      "empty_header_0": 0,
+      "MECH&AE_1_–Undergraduate_Seminar": "MECH&AE C171B– Digital Control of Physical Systems",
+      "empty_header_2": 0,
+      "Fall_2025": 1,
+      "–": 0
+    },
+    {
+      "empty_header_0": 0,
+      "MECH&AE_1_–Undergraduate_Seminar": "MECH&AE 172 –Control System Design Laboratory           Updated 02/14/2025",
+      "empty_header_2": 0,
+      "Fall_2025": 0,
+      "–": 0
+    },
+    {
+      "empty_header_0": 0,
+      "MECH&AE_1_–Undergraduate_Seminar": "MECH&AE 174 –Probability and Its Applications to Risk, Reliability, and Quality Control",
+      "empty_header_2": 0,
+      "Fall_2025": 1,
+      "–": 0
+    },
+    {
+      "empty_header_0": 0,
+      "MECH&AE_1_–Undergraduate_Seminar": "MECH&AE C175A –Probability and Stochastic Processes in Dynamical Systems",
+      "empty_header_2": 0,
+      "Fall_2025": 1,
+      "–": 0
+    },
+    {
+      "empty_header_0": 0,
+      "MECH&AE_1_–Undergraduate_Seminar": "MECH&AE 181A – Complex Analysis and Integral Transforms (NOT OFFERED 2025-2026)",
+      "empty_header_2": 0,
+      "Fall_2025": 0,
+      "–": 0
+    },
+    {
+      "empty_header_0": 0,
+      "MECH&AE_1_–Undergraduate_Seminar": "MECH&AE 182B -Mathematics of Engineering(NOT OFFERED 2025-2026)",
+      "empty_header_2": 0,
+      "Fall_2025": 0,
+      "–": 0
+    },
+    {
+      "empty_header_0": 0,
+      "MECH&AE_1_–Undergraduate_Seminar": "MECH&AE 182C –Numerical Methods for Engineering Applications",
+      "empty_header_2": 0,
+      "Fall_2025": 1,
+      "–": 0
+    },
+    {
+      "empty_header_0": 0,
+      "MECH&AE_1_–Undergraduate_Seminar": "MECH&AE 183A –Introduction to Manufacturing Processes",
+      "empty_header_2": 1,
+      "Fall_2025": 1,
+      "–": 1
+    },
+    {
+      "empty_header_0": 0,
+      "MECH&AE_1_–Undergraduate_Seminar": "MECH&AE M183B –Introduction to Microscale and Nanoscale Manufacturing",
+      "empty_header_2": 1,
+      "Fall_2025": 1,
+      "–": 0
+    },
+    {
+      "empty_header_0": 0,
+      "MECH&AE_1_–Undergraduate_Seminar": "MECH&AE C183C –Rapid Prototpying and Manufacturing",
+      "empty_header_2": 0,
+      "Fall_2025": 0,
+      "–": 1
+    },
+    {
+      "empty_header_0": 0,
+      "MECH&AE_1_–Undergraduate_Seminar": "MECH&AE 185 –Introduction to Radio Frequency Identification",
+      "empty_header_2": 0,
+      "Fall_2025": 0,
+      "–": 1
+    },
+    {
+      "empty_header_0": 0,
+      "MECH&AE_1_–Undergraduate_Seminar": "MECH&AE C186– Applied Optics",
+      "empty_header_2": 0,
+      "Fall_2025": 0,
+      "–": 1
+    },
+    {
+      "empty_header_0": 0,
+      "MECH&AE_1_–Undergraduate_Seminar": "MECH&AE C187L –Nanoscale Fabrication, Characterization, and Biodetection Laboratory(updated 01/27/2026)",
+      "empty_header_2": 1,
+      "Fall_2025": 0,
+      "–": 1
+    },
+    {
+      "empty_header_0": 0,
+      "MECH&AE_1_–Undergraduate_Seminar": "EC ENGR 100 –Electrical and Electronic Circuits",
+      "empty_header_2": 0,
+      "Fall_2025": 1,
+      "–": 0
+    },
+    {
+      "empty_header_0": 0,
+      "MECH&AE_1_–Undergraduate_Seminar": "EC ENGR 110L  –Circuit Measurements Laboratory",
+      "empty_header_2": 1,
+      "Fall_2025": 1,
+      "–": 0
+    },
+    {
+      "empty_header_0": 0,
+      "MECH&AE_1_–Undergraduate_Seminar": "MAT SCI 104 –Science of Engineering Materials",
+      "empty_header_2": 0,
+      "Fall_2025": 1,
+      "–": 0
+    }
+  ]
+}]
