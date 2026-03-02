@@ -46,15 +46,13 @@ Object.values(majorsData).forEach(major => {
           units: 4,
           offered: ['Fall', 'Winter', 'Spring']
         });
-        // We probably don't want to pollute the "Departments" dropdown with these
-        // if they are truly external, but for completeness:
-        const dept = courseCode.replace(/[0-9].*/, '').trim();
-        if (dept) parsedDepartments.add(dept);
+        // Do NOT add synthetic major-requirement courses to the department dropdown
       }
     });
   });
 });
 
+// Freeze the department list here — only departments from the scraped JSON
 export const availableDepartments = Array.from(parsedDepartments).sort();
 
 // planner dimensions
