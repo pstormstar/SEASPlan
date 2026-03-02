@@ -1,12 +1,30 @@
 import React, { useState, useEffect } from 'react';
 import { Draggable } from '@hello-pangea/dnd';
-import { ChevronDown } from 'lucide-react';
+import { ChevronDown, AlertTriangle } from 'lucide-react';
 
 import { usePlannerStore } from '../store/usePlannerStore';
 
-const CourseCard = ({ course, index, isRemovable, onRemove }) => {
+const CourseCard = ({ course, index, isRemovable, onRemove, quarterId }) => {
   const globalExpanded = usePlannerStore((state) => state.isAllExpanded);
   const [isExpanded, setIsExpanded] = useState(globalExpanded);
+
+  // Check quarter availability warning
+  let showWarning = false;
+  let warningMessage = '';
+  
+  if (quarterId) {
+    const targetQuarterMatch = quarterId.match(/year-\d+-(fall|winter|spring|summer)/i);
+    if (targetQuarterMatch) {
+      const targetQ = targetQuarterMatch[1].toLowerCase();
+      if (targetQ !== 'summer') {
+        const offeredLower = (course.offered || []).map(q => q.toLowerCase());
+        if (offeredLower.length > 0 && !offeredLower.includes(targetQ)) {
+          showWarning = true;
+          warningMessage = `${course.code} is typically not offered in ${targetQuarterMatch[1]}. It is offered in: ${course.offered.join(', ')}.`;
+        }
+      }
+    }
+  }
 
   // Sync internal state if global state toggles
   useEffect(() => {
@@ -23,7 +41,14 @@ const CourseCard = ({ course, index, isRemovable, onRemove }) => {
           className={`course-card ${snapshot.isDragging ? 'dragging' : ''}`}
         >
           <div className="course-card-header">
-            <strong>{course.code}</strong>
+            <strong style={{ display: 'flex', alignItems: 'center', gap: '4px' }}>
+              {course.code}
+              {showWarning && (
+                <div className="course-warning" data-title={warningMessage}>
+                  <AlertTriangle size={16} color="var(--warning-color, #f59e0b)" />
+                </div>
+              )}
+            </strong>
             <div className="course-card-actions">
               <button 
                 className={`expand-btn ${isExpanded ? 'expanded' : ''}`} 

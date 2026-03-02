@@ -5,6 +5,7 @@ import { supabase } from './lib/supabaseClient';
 import CourseSidebar from './components/CourseSidebar';
 import PlannerGrid from './components/PlannerGrid';
 import Login from './components/Login';
+import ExportButton from './components/ExportButton';
 import './index.css';
 
 function App() {
@@ -113,12 +114,15 @@ function App() {
       <header className="app-header">
         <div className="brand">
           <img src="/bruinBear.svg" alt="Bruin Logo" className="brand-icon" style={{ width: '32px', height: '32px' }} />
-          <h1>BruinPlan</h1>
+          <h1>SEASplan</h1>
         </div>
         <div className="header-actions">
           {currentUser && (
             <span className="user-email-right">{currentUser.email}</span>
           )}
+          <div style={{ marginRight: '1rem' }}>
+            <ExportButton />
+          </div>
           {currentUser ? (
             <button 
               className="header-btn btn-logout" 

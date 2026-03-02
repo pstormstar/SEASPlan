@@ -2,7 +2,7 @@ import React, { useState, useRef, useEffect } from 'react';
 import { Droppable } from '@hello-pangea/dnd';
 import CourseCard from './CourseCard';
 import { usePlannerStore } from '../store/usePlannerStore';
-import { Search, X, Plus } from 'lucide-react';
+import { Search, X, Plus, AlertTriangle } from 'lucide-react';
 
 const QuarterColumn = ({ title, quarterId, courses }) => {
   const removeCourse = usePlannerStore((state) => state.removeCourseFromPlanner);
@@ -49,7 +49,14 @@ const QuarterColumn = ({ title, quarterId, courses }) => {
     <div className={`quarter-column ${seasonClass}`}>
       <div className="quarter-header">
         <h3>{title}</h3>
-        <span className="unit-count">{totalUnits} Units</span>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+          {totalUnits > 21 && (
+            <div className="unit-warning" data-title="You can take a maximum of 21 units.">
+              <AlertTriangle size={16} color="var(--danger, #ef4444)" />
+            </div>
+          )}
+          <span className={`unit-count ${totalUnits > 21 ? 'units-exceeded' : ''}`}>{totalUnits} Units</span>
+        </div>
       </div>
       <Droppable droppableId={quarterId}>
         {(provided, snapshot) => (
@@ -66,6 +73,7 @@ const QuarterColumn = ({ title, quarterId, courses }) => {
                 index={index} 
                 isRemovable={true}
                 onRemove={() => removeCourse(quarterId, index)}
+                quarterId={quarterId}
               />
             ))}
             {provided.placeholder}

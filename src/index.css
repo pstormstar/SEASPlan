@@ -279,6 +279,38 @@ body {
   opacity: 1;
 }
 
+/* Sidebar Horizontal Resizer */
+.horizontal-resizer {
+  height: 6px;
+  background-color: var(--border-color);
+  cursor: row-resize;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.2s;
+  user-select: none;
+}
+
+.horizontal-resizer:hover, .horizontal-resizer:active {
+  background-color: var(--ucla-blue-light);
+}
+
+.horizontal-resizer-line {
+  width: 30px;
+  height: 2px;
+  background-color: var(--text-secondary);
+  border-radius: 2px;
+  opacity: 0.4;
+  transition: opacity 0.2s, background-color 0.2s;
+}
+
+.horizontal-resizer:hover .horizontal-resizer-line, 
+.horizontal-resizer:active .horizontal-resizer-line {
+  background-color: white;
+  opacity: 1;
+}
+
 .sidebar-header {
   padding: 1rem;
   border-bottom: 1px solid var(--border-color);
@@ -484,6 +516,117 @@ body {
 .course-card-header strong {
   font-size: 0.9rem;
   color: var(--ucla-blue-dark);
+}
+
+.course-warning {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  cursor: pointer;
+}
+
+/* Tooltip implementation */
+.course-warning::after {
+  content: attr(data-title);
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: var(--text-primary);
+  color: white;
+  padding: 0.4rem 0.6rem;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: normal;
+  white-space: nowrap;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.2s, visibility 0.2s;
+  pointer-events: none;
+  z-index: 10;
+  margin-bottom: 6px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+}
+
+.course-warning::before {
+  content: '';
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border-width: 6px 6px 0;
+  border-style: solid;
+  border-color: var(--text-primary) transparent transparent transparent;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.2s, visibility 0.2s;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.course-warning:hover::after,
+.course-warning:hover::before {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Unit Warnings */
+.unit-warning {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.unit-warning::after {
+  content: attr(data-title);
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: var(--danger);
+  color: white;
+  padding: 0.4rem 0.6rem;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  white-space: nowrap;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.2s, visibility 0.2s;
+  pointer-events: none;
+  z-index: 10;
+  margin-bottom: 6px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+}
+
+.unit-warning::before {
+  content: '';
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border-width: 6px 6px 0;
+  border-style: solid;
+  border-color: var(--danger) transparent transparent transparent;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.2s, visibility 0.2s;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.unit-warning:hover::after,
+.unit-warning:hover::before {
+  opacity: 1;
+  visibility: visible;
+}
+
+.units-exceeded {
+  color: var(--danger) !important;
+  background-color: #fee2e2 !important;
 }
 
 .course-card-actions {

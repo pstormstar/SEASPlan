@@ -1,6 +1,7 @@
 import { create } from 'zustand';
 import rawCourseGroups from '../../scraper_db.course_offerings.json';
 import { supabase } from '../lib/supabaseClient';
+import { majorsData } from '../data/majors';
 
 // Process the raw scraped data into a flat active list
 const parsedCourses = [];
@@ -30,6 +31,30 @@ rawCourseGroups.forEach(group => {
   });
 });
 
+// Ensure all courses required by majors exist in our data source
+Object.values(majorsData).forEach(major => {
+  major.categories.forEach(category => {
+    category.courses.forEach(courseCode => {
+      const exists = parsedCourses.some(c => c.code === courseCode);
+      if (!exists) {
+        parsedCourses.push({
+          id: courseCode,
+          code: courseCode,
+          // Extract department prefix (everything before the first number)
+          title: courseCode + ' (Requirement)',
+          department: courseCode.replace(/[0-9].*/, '').trim(),
+          units: 4,
+          offered: ['Fall', 'Winter', 'Spring']
+        });
+        // We probably don't want to pollute the "Departments" dropdown with these
+        // if they are truly external, but for completeness:
+        const dept = courseCode.replace(/[0-9].*/, '').trim();
+        if (dept) parsedDepartments.add(dept);
+      }
+    });
+  });
+});
+
 export const availableDepartments = Array.from(parsedDepartments).sort();
 
 // planner dimensions
@@ -48,7 +73,10 @@ export const usePlannerStore = create((set) => ({
   planner: initialPlanner,
   availableCourses: parsedCourses,
   isAllExpanded: false,
+  isAllCategoriesExpanded: false,
   selectedDepartment: 'none',
+  selectedTerm: 'none',
+  selectedMajor: 'none',
   currentUser: null,
   isLoading: false,
   error: null,
@@ -100,8 +128,22 @@ export const usePlannerStore = create((set) => ({
   },
 
   toggleExpandAll: () => set((state) => ({ isAllExpanded: !state.isAllExpanded })),
+  toggleExpandAllCategories: () => set((state) => ({ isAllCategoriesExpanded: !state.isAllCategoriesExpanded })),
 
   setDepartment: (dept) => set({ selectedDepartment: dept }),
+  
+  setTerm: (term) => set({ selectedTerm: term }),
+  
+  setMajor: (majorId) => set({ selectedMajor: majorId }),
+
+  setPlanner: (newPlanner) => set(() => {
+    // Spread each quarter array into a new reference so Zustand detects the change
+    const refreshed = {};
+    Object.keys(newPlanner).forEach(key => {
+      refreshed[key] = [...(newPlanner[key] || [])];
+    });
+    return { planner: refreshed };
+  }),
 
   moveCourse: (sourceId, destinationId, sourceIndex, destIndex, courseId) => set((state) => {
     // Prevent duplicate in the same quarter
@@ -130,6 +172,10 @@ export const usePlannerStore = create((set) => ({
       sourceList.splice(sourceIndex, 1);
       newPlanner[sourceId] = sourceList;
     }
+
+    // Check quarter availability warning
+    // We do NOT use alert here anymore, we will just let CourseCard UI show the warning.
+    // CourseCard can derive the quarter from the destinationId and course.offered array.
 
     // Add to destination list
     if (isDestSidebar) {
@@ -162,6 +208,9 @@ export const usePlannerStore = create((set) => ({
 
     const courseToAdd = state.availableCourses.find(c => c.id === courseId);
     if (!courseToAdd) return state;
+
+    // Check quarter availability warning (no alert)
+    // The CourseCard UI will handle displaying the warning icon.
 
     const newPlanner = { ...state.planner };
     const newList = [...(newPlanner[quarterId] || []), courseToAdd];
